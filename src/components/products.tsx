@@ -7,7 +7,7 @@ import Card from "./Card";
 const Products = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.products.products);
-  console.log(data);
+  // console.log(data);
   useEffect(() => {
     dispatch(fetchProducts());
   }, []);

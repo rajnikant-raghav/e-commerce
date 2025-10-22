@@ -1,9 +1,11 @@
+import ConfigRoutes from "./components/ConfigRoutes";
 import HeroSection from "./components/hero-section";
 
 function App() {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <ConfigRoutes/>
     </>
   );
 }

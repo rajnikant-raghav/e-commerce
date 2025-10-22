@@ -5,7 +5,6 @@ const HeroSection = () => {
   return (
     <>
       <Header />
-      <Products />
     </>
   );
 };
